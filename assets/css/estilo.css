@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(145, 228, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.tudo{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.tudo .left_Side
+{
+    position: relative;
+    background: #008B8B;
+    padding: 40px;
+}
+.Textoperfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.Textoperfil .foto-perfil
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Textoperfil .foto-perfil img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Textoperfil h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.4em;
+}
+.Textoperfil h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.Infopessoal{
+    padding-top: 40px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.Infopessoal ul
+{
+    position: relative;
+}
+.Infopessoal ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Infopessoal ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #87cae9;
+}
+.Infopessoal ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+.Infopessoal.educação li
+{
+    margin-bottom: 20px;
+}
+.Infopessoal.educação h5
+{
+    color: #87cae9;
+    font-weight: 500;
+}
+.Infopessoal.educação h4
+{
+    color: #fff;
+    font-weight: 500;
+}
+.Infopessoal.educação h3
+{
+    color: #fff;
+    font-weight: 200;
+}
+.Infopessoal.contato ul li .icon
+{
+    display: inline-block;
+    width: 35px;
+    font-size: 45px;
+    color: black
+}
+
+
+
+.tudo .right_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about {
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #008B8B;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
+}
+.about .curso
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .curso .periodo
+{
+    min-width: 150px;
+}
+.about .curso .periodo h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about .curso .text h4
+{
+    text-transform: uppercase;
+    color: 	#5F9EA0;
+    font-size: 16px;
+}
+.experience .experiencia
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.experience .experiencia .periodo
+{
+    min-width: 150px;
+}
+.experience .experiencia .periodo h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.experience .experiencia .cargo h4
+{
+    text-transform: uppercase;
+    color: 	#5F9EA0;
+    font-size: 16px;
+}
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imagemdalogo {
+    padding: 0 40px 100px;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 33.33%;
+}
+.icone {
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+.imagemdalogo h3 {
+    text-transform: uppercase;
+    color: 	#5F9EA0;
+    font-size: 25px;
+}
